@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/car-svgrepo-com.svg">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/modal.css">
+    <script src="./js/main.js" defer></script>
+    <script src="./js/modal.js" defer></script>
+    <title>Avtovokzal Orel</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+        <div class="header__container">
+        <div class="header__logo">
+            <img src="./img/car-svgrepo-com.svg" alt="" class="logo__img">
+        </div>
+        <nav>
+            <div class="nav__sign">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#!" class="nav__link nav-btn"> <span><i class='bx bxs-door-open'></i></span>Личный кабинет</a></li>
+                </ul>
+            </div>
+        </nav>
+        </div>
+    </div>
+    </header>
+
+    <main class="main">
+
+        <section class="section main__section">
+            <div class="inner">
+                <div class="title__block">
+                    <h1 class="main__title">Добро пожаловать <br> на сайт автовокзала <br> города Орла!</h1>
+                </div>
+                <form id="form" class="new-search-form">
+                    <div class="form-container">
+                        <div class="from-container"><input type="text" name="city" list="cities" placeholder="Откуда" class="point"/>
+                            <datalist id="cities">
+                                <option value="Орёл" />
+                                <option value="Курск" />
+                                <option value="Ливны" />
+                                <option value="Тула" />
+                                <option value="Брянск" />
+                                <option value="Воронеж" />
+
+                             </datalist>
+                        </div>
+                  
+                        <div class="to-container"><input type="text" name="city" list="cities" placeholder="Куда" class="point"/>
+                            <datalist id="cities">
+                                <option value="Орёл" />
+                                <option value="Курск" />
+                                <option value="Ливны" />
+                                <option value="Тула" />
+                                <option value="Брянск" />
+                                <option value="Воронеж" />
+                             </datalist>
+                            </div>
+
+                        <div class="date-container">
+                            <div class="when"><input type="date" class="point" name="date" placeholder="дд.мм.гг" autocomplete="off">
+                            </div>
+                            
+                        </div>
+                        <div class="search-btn-container">
+                            <button type="submit point" class="button-search">Поиск</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="section popular__section">
+
+            <div class="aside-block">
+                <h1 class="aside-block-title">Популярные направления</h1>
+            </div>
+
+            <div class="popular-wrapper">
+                <a href="./table.html" target="_blank" class="popular__link">
+                    <div class="popular__card">
+                        <img src="./img/kursk.jpg" alt="place photo" class="popular__img">
+                        <h4 class="popular__title">Орёл - Курск</h4>
+                    </div>
+                </a>
+
+                <a href="#" target="_blank" class="popular__link">
+                    <div class="popular__card">
+                        <img src="./img/zhelez.jpg" alt="place photo" class="popular__img">
+                        <h4 class="popular__title">Орёл - Железногорск</h4>
+                    </div>
+                </a>
+
+                <a href="./table.html" target="_blank" class="popular__link">
+                    <div class="popular__card">
+                        <img src="./img/tula.jpg" alt="place photo" class="popular__img">
+                        <h4 class="popular__title">Орёл - Тула</h4>
+                    </div>
+                </a>
+
+                <a href="./table.html" target="_blank" class="popular__link">
+                    <div class="popular__card">
+                        <img src="./img/bryansk.jpg" alt="place photo" class="popular__img">
+                        <h4 class="popular__title">Орёл - Брянск</h4>
+                    </div>
+                </a>
+
+                <a href="./table.html" target="_blank" class="popular__link">
+                    <div class="popular__card">
+                        <img src="./img/voronezh.jpg" alt="place photo" class="popular__img">
+                        <h4 class="popular__title">Орёл - Воронеж</h4>
+                    </div>
+                </a>
+
+                <a href="./table.html" target="_blank" class="popular__link">
+                    <div class="popular__card">
+                        <img src="./img/livn.jpeg" alt="place photo" class="popular__img">
+                        <h4 class="popular__title">Орёл - Ливны</h4>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <div class="aside-block">
+            <h1 class="aside-block-title">Информация для пользователей</h1>
+        </div>
+    </main>
+    
+    <footer class="footer section">
+            <div class="footer__content">
+                <div class="footer__data">
+                    <h3 class="footer__title">Автовокзал Орёл</h3>
+                    <p class="footer__description">Выбери комфортный сервис <br> для своего путешествия <br> по всесу миру.                    </p>
+                    <div>
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                            <i class='bx bxl-facebook-square'></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social">
+                            <i class='bx bxl-twitter'></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                            <i class='bx bxl-instagram-alt' ></i>
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                            <i class='bx bxl-youtube'></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">О нас</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href=""# class="footer__link">История</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Основание</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Новости</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Компания</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Команда</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Планы развития</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Стать членом команды</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Поддержка</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">FAQs</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Центр поддержки</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Наши контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </footer>     
+    
+    <div class="overlay overlay_account overlay__registration">
+        <div class="modal">
+            <button class="modal__close">
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z" fill="currentColor"/>
+                </svg>
+            </button>
+            <h2 class="modal__title">Регистрация</h2>
+            <form class="modal__form">
+                <label class="modal__label modal__label-name">
+                    <span class="modal__label-text">ФИО</span>
+                    <input class="modal__input" type="text" placeholder="Введите ваше имя">
+                </label>
+                    <label class="modal__label ">
+                    <span class="modal__label-text">E-mail</span>
+                    <input class="modal__input" type="email" placeholder="Введите ваш e-mail">
+                    </label>
+                    <label class="modal__label modal__label_last">
+                        <span class="modal__label-text">Пароль</span>
+                        <input class="modal__input" type="text" placeholder="Придумайте пароль">
+                    </label>
+                    <input class="modal__order" type="hidden" name="order">
+                    <div class="btn-container">
+                    <button class="modal__button"> Зарегистрироваться</button>
+                    <a href="#" class="modal__link enter__link">Войти</a>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+    <div class="overlay overlay_account overlay__enter">
+        <div class="modal">
+            <button class="modal__close">
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z" fill="currentColor"/>
+                </svg>
+            </button>
+            <h2 class="modal__title">Вход</h2>
+            <form class="modal__form">
+                    <label class="modal__label ">
+                    <span class="modal__label-text">E-mail</span>
+                    <input class="modal__input" type="email" placeholder="Введите ваш e-mail">
+                    </label>
+                    <label class="modal__label modal__label_last">
+                        <span class="modal__label-text">Пароль</span>
+                        <input class="modal__input" type="password" placeholder="Введите пароль">
+                    </label>
+                    <input class="modal__order" type="hidden" name="order">
+                    <div class="btn-container">
+                    <button class="modal__button">Войти</button>
+                    <a href="#" class="modal__link reg__link">Зарегистрироваться</a>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    
+    <script src="./js/scrollreveal.min.js"></script>
+</body>
+
+</html>
