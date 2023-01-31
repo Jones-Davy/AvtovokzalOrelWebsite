@@ -15,7 +15,7 @@ overlayRegistration.addEventListener('click', event => {
     const target = event.target
     if (target === overlayRegistration || target.closest('.modal__close')) {
         overlayRegistration.style.display = 'none'
-        document.body.style.overflow = 'visible';
+        document.body.style.overflow = 'unset';
         form.style.display = 'table'
     }
 })
